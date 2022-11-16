@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: black;
+            text-align: center;
+            font-size: 50px;
+            font-family: Brush Script MT;
+            text-shadow: 3px 5px 3px blue;
+            text-decoration: underline;
+        }
+        h2{
+            font-family: Broadway;
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+
+
+    <h1>Form Elements</h1>
+
+    <h2>Meter</h2>
+    Copying data...
+    <meter min="10" value="70" max="100"></meter>
+<hr>
+    <h2>ProgressBar</h2>
+    Downloading file..
+    <progress value="30" max="100"></progress>
+<hr>
+    <h2>Data list</h2>
+    City:<input type="text" list="City">
+
+    <datalist id="City">
+        <option value="Navi-Mumbai">Navi-Mumbai</option>
+        <option value="Panvel">Panvel</option>
+        <option value="Thane">Thane</option>
+        <option value="Mumbai">Mumbai</option>
+    </datalist>
+
+    Country:<input type="text" list="Country">
+
+    <datalist id="Country">
+        <option value="India">India</option>
+        <option value="US">US</option>
+        <option value="China">China</option>
+    </datalist>
+<hr>
+    <h2>TabIndex/Acceskey</h2>
+
+    Select Gender:<br><br>
+    Male<input type="radio" name="Select Gender" tabindex="1" accesskey="m"><br>
+    Female<input type="radio" name="Select Gender" tabindex="2"><br>
+<hr>
+    <h2>Image button</h2>
+
+    <a href="formElement.html">
+        <input type="image" src="/Images/b1.png" height="50px">
+        <input type="image" src="/Images/b2.png" height="50px">
+    
+    </a>
+<hr>
+
+
+
+</body>
+</html>
