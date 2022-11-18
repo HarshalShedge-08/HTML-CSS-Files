@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 1000px;
+    height: 800px;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+header{
+    height: 100px;
+    width: 1000px;
+    background-color: red;
+}
+
+section{
+    height: 300px;
+    width: 600px;
+    background-color: green;
+    float: left;
+}
+
+aside{
+    height: 600px;
+    width: 400px;
+    background-color: pink;
+    float: right;
+}
+
+article{
+    height: 300px;
+    width: 600px;
+    background-color: blue;
+    float: left;
+}
+
+footer{
+    height: 100px;
+    width: 1000px;
+    background-color: red;
+    float: left;
+
+}

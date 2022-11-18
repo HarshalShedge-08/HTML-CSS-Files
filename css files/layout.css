@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    height: 1000px;
+    width: 1200px;
+    background-color: cornflowerblue;
+    margin: auto;
+}
+
+header{
+    height: 100px;
+    width: 1200px;
+    background-color: black;
+}
+
+menu{
+    height: 50px;
+    width: 1200px;
+    background-color: gray;
+}
+
+content{
+    height: 450px;
+    width: 850px;
+    background-color: black;
+    float: left;
+}
+
+aside{
+    height: 450px;
+    width: 350px;
+    background-color: darkgray;
+    float: right;
+}
+
+footer{
+    height: 300px;
+    width: 1200px;
+    background-color: gray;
+    float: left;
+}
+
+copyright{
+    height: 100px;
+    width: 1200px;
+    background-color: black;
+    float: left;
+}
