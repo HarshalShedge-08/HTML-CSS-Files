@@ -1,0 +1,100 @@
+h1{
+    color: lime;
+    font-size: 50px;
+    text-align: center;
+    font-family: Matura MT Script Capitals;
+    padding-top: 10px;
+
+    transition: 3s;
+}
+h1:hover{
+    color:lawngreen;
+    text-decoration: overline;
+    transform: scale(2,2);
+}
+h2{
+    color: darkgreen;
+    font-size: 30px;
+    text-align: center;
+    font-family: Matura MT Script Capitals;
+
+    transition: 2s;
+}
+h2:hover{
+    color: limegreen;
+    text-decoration: underline;
+    font-size: 50px;
+}
+body{
+    background-color: black;
+}       
+main{
+    height: 1100px;
+    width: 900px;
+    margin: auto;
+    border: solid 5px green;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color: darkgreen;
+
+    animation-name: boxanimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes boxanimation{
+
+    0%{left: 0px; top: 0px;}
+    15%{left: 590px; top: 0px; background-color: red; transform: rotate(360deg);}
+    30%{left: 590px; top: 280px; background-color: yellow;}
+    45%{left: 0px; top: 280px; background-color: blue;}
+    60%{left: 0px; top: 600px; background-color: violet;}
+    75%{left: 590px; top: 600px; background-color: orange;}
+    100%{left: 590px; top: 600px; background-color: green;}
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+
+    animation-name: boxanimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes boxanimation{
+
+    0%{left: 0px; top: 0px;}
+    15%{left: 590px; top: 0px; background-color: red; transform: rotate(360deg);}
+    30%{left: 590px; top: 280px; background-color: yellow;}
+    45%{left: 0px; top: 280px; background-color: blue;}
+    60%{left: 0px; top: 600px; background-color: violet;}
+    75%{left: 590px; top: 600px; background-color: orange;}
+    100%{left: 590px; top: 600px; background-color: green;}
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+
+    animation-name: boxanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes boxanimation{
+
+    0%{left: 0px; top: 0px;}
+    15%{left: 590px; top: 0px; background-color: red; transform: rotate(360deg);}
+    30%{left: 590px; top: 280px; background-color: yellow;}
+    45%{left: 0px; top: 280px; background-color: blue;}
+    60%{left: 0px; top: 600px; background-color: violet;}
+    75%{left: 590px; top: 600px; background-color: orange;}
+    100%{left: 590px; top: 600px; background-color: green;}
+}
+
