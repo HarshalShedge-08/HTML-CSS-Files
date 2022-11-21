@@ -3,15 +3,23 @@
     height: 300px;
     display: flex;
     flex-direction: row; 
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
    
+}
+
+.item{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 80px;
 }
 
 .item-1{
     background-color: purple;
     width: 100px;
     height: 100px;
+ 
     
   
 }
@@ -21,24 +29,34 @@
     background-color: green;
     width: 100px;
     height: 100px;
+    flex-basis: 20%;
+    align-self: flex-start;
 }
 
 .item-3{
     background-color: yellow;
     width: 100px;
     height: 100px;
+
 }
 
 .item-4{
     background-color: pink;
     width: 100px;
-    height: 100px;
+    height: 180px;
+    flex-basis: 20%;
+   
+   transition: 2s;
+}
+.item-4:hover{  
+    transform: rotate(360deg);
 }
 
 .item-5{
     background-color: blue;
     width: 100px;
     height: 100px;
+ 
 }
 
 .item-6{

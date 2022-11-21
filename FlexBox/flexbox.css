@@ -46,7 +46,7 @@ h1,h2,h3{
 
     display: flex;
     flex-flow: row-reverse;
-    justify-content: center;
+    justify-content:space-between;
     align-items: flex-end;
 }
 .item-1{
@@ -83,4 +83,95 @@ h1,h2,h3{
     background-color: violet;
     height: 200px;
     width: 200px;
+}
+
+
+.flex-container3{
+    color:black;
+    border: 5px white solid;
+    height: 700px;
+    width: 2000px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: nowrap;
+    flex-flow: column;*/
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+}
+.item-a{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+
+    order: 1;
+    align-self: flex-end;
+    transition: 2s;
+}
+.item-a:hover{
+    transform:  translateX(400px);
+}
+.item-b{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+
+    order: 3;
+}
+.item-c{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+
+    order: 2;
+}
+.item-d{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+
+    flex-grow: 1;
+}
+.item-e{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+
+    flex-shrink: 3;
+    align-self: flex-end;
+    transition: 2s;
+ }
+.item-e:hover{
+    transform: scale(3);
+}
+.item-f{
+    background-color: indigo;
+    height: 200px;
+    width: 200px;
+
+    flex-basis: 20%;
+
+    transition: 2s;
+}
+.item-f:hover{
+    transform: rotate(360deg);
+}
+.item-g{
+    background-color: violet;
+    height: 200px;
+    width: 200px;
+
+    align-self: flex-start;
+    
+    transition: 2s;
+}
+.item-g:hover{
+    transform: scaleX(3);
 }
