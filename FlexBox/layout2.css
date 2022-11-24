@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    font-family: Elephant;
+    padding-top: 10px;
+    margin-top: 40px;
+
+    transition: 3s;
+}
+h1:hover{
+    color:orangered;
+    text-decoration: overline;
+    transform: scale(2,2);
+}
+h2{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family: Chiller;
+    margin-top: 20px;
+
+    transition: 2s;
+}
+h2:hover{
+    color: orange;
+    text-decoration: underline;
+    font-size: 80px;
+}
+body{
+    background-color: black;
+} 
+
+.flex-container{
+    background-color: bisque;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: rgb(201, 11, 11);
+    height: 200px;
+}
+
+section{
+    background-color: gray;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+}
+
+article{
+    background-color: brown;
+    flex-basis: 50%;
+}
+
+aside{
+    background-color: rgb(218, 45, 45);
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1{
+    background-color: darkred;
+    height: 500px;
+    width: 600px;
+}
+.box2{
+    background-color: rgb(190, 5, 5);
+    height: 500px;
+    width: 700px;
+}
+
+footer{
+    background-color: rgb(163, 11, 11);
+    height: 100px;
+}
