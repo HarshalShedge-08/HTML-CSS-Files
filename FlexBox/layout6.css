@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: beige;
+    font-size: 50px;
+    font-family: Forte;
+}
+h1:hover{
+    color: red;
+    font-size: 80px;
+    text-decoration: overline;
+}
+h2{
+    color: beige;
+    font-size: 30px;
+    font-family: Brush Script MT;
+}
+h2:hover{
+    color: darkred;
+    font-size: 50px;
+    text-decoration: underline;
+}
+h1,h2{
+    text-align: center;
+    transition: 3s;
+}
+
+.flex-container{
+    height: 1200px;
+    width: 1000px;
+    background-color: antiquewhite;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 150px;
+    width: 1000px;
+    background-color:darkcyan;
+}
+
+
+
+
+section{
+    height: 700px;
+    width: 990px;
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+content{
+    height: 700px;
+    width: 300px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+article{
+    height: 290px;
+    width: 290px;
+    background-color:mediumorchid;
+}
+sidebar{
+    height: 390px;
+    width: 290px;
+    background-color:darkolivegreen;
+}
+
+cont{
+    height: 700px;
+    width: 700px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    height: 440px;
+    width: 690px;
+    background-color:goldenrod;
+}
+aside{
+    height: 240px;
+    width: 690px;
+    background-color:gray;
+}
+
+
+
+
+section2{
+    height: 200px;
+    width: 1000px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}   
+menu{
+    height: 190px;
+    width: 690px;
+    background-color:rgb(19, 153, 146);
+}   
+home{
+    height: 190px;
+    width: 290px;
+    background-color:palevioletred;
+}
+footer{
+    height: 150px;
+    width: 1000px;
+    background-color: orange;
+
+    justify-content: space-around;
+    align-items:center;
+}

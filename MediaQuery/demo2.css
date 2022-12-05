@@ -1,0 +1,291 @@
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: Jokerman;
+    text-align: center;
+    text-decoration: overline;
+}
+
+body{
+    background-color: darkolivegreen;
+}
+
+.box1{
+    border: 5px solid white;
+    margin: auto;
+    text-align: center;
+    color: bisque;
+    font-size: 30px;
+}
+.box2{
+    height: 300px;
+    width: auto;
+    background-color: darkolivegreen;
+    margin: auto;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.b1{
+    height: 200px;
+    width: 300px;
+    border: 5px solid white;
+    background-color: orangered;
+}
+.b2{
+    height: 200px;
+    width: 300px;
+    border: 5px solid white;
+    background-color: olive;
+}
+.b3{
+    height: 200px;
+    width: 300px;
+    border: 5px solid white;
+    background-color: darkgoldenrod;
+}
+.b4{
+    height: 200px;
+    width: 300px;
+    border: 5px solid white;
+    background-color: darkturquoise;
+}
+
+
+
+@media all and (max-width:300px)
+{
+    h1{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    body{
+        background-color: darkred;
+    }
+
+    .box1{
+        border: 5px solid white;
+        margin: auto;
+        text-align: center;
+        color: bisque;
+    }
+    .box2{
+        height: 300px;
+        width: auto;
+        background-color: aliceblue;
+        margin: auto;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .b1{
+        height: 65px;
+        width: 65px;
+        background-color: orangered;
+    }
+    .b2{
+        height: 65px;
+        width: 65px;
+        background-color: olive;
+    }
+    .b3{
+        height: 65px;
+        width: 65px;
+        background-color: darkgoldenrod;
+    }
+    .b4{
+        height: 65px;
+        width: 65px;
+        background-color: darkturquoise;
+    }
+    
+}
+
+@media all and (min-width:300px) and (max-width:375px)
+{
+    h1{
+        color: red;
+        font-size: 30px;
+        text-align: center;
+        font-family: Harlow Solid;
+    }
+    
+    body{
+        background-color: black;
+    }
+
+    .box1{
+        border: 5px solid red;
+        margin: auto;
+        text-align: center;
+        color: red;
+    }
+    .box2{
+        height: 300px;
+        width: auto;
+        background-color: red;
+        margin: auto;
+    }    
+    section{
+        display: flex;
+        flex-direction: row;
+    }
+    .b1{
+        height: 65px;
+        width: 65px;
+        background-color: orangered;
+    }
+    .b2{
+        height: 65px;
+        width: 65px;
+        background-color: olive;
+    }
+    .b3{
+        height: 65px;
+        width: 65px;
+        background-color: darkgoldenrod;
+    }
+    .b4{
+        height: 65px;
+        width: 65px;
+        background-color: darkturquoise;
+    } 
+}
+@media all and (min-width:375px) and (max-width:425px)
+{
+    h1{
+        color: darkblue;
+        font-size: 40px;
+        text-align: center;
+        font-family: Curlz MT;
+    }
+    
+    body{
+        background-color: skyblue;
+    }
+
+    .box1{
+        border: 5px solid darkblue;
+        margin: auto;
+        text-align: center;
+        color: darkblue;
+    }
+    .box2{
+        height: 300px;
+        width: auto;
+        background-color: darkblue;
+        margin: auto;
+    }    
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .b1{
+        height: 65px;
+        width: 65px;
+        background-color: orangered;
+    }
+    .b2{
+        height: 65px;
+        width: 65px;
+        background-color: olive;
+    }
+    .b3{
+        height: 65px;
+        width: 65px;
+        background-color: darkgoldenrod;
+    }
+    .b4{
+        height: 65px;
+        width: 65px;
+        background-color: darkturquoise;
+    } 
+    
+}
+@media all and (min-width:425px) and (max-width:768px)
+{
+    h1{
+        color: purple;
+        font-size: 50px;
+        text-align: center;
+        font-family: French Script MT;
+    }
+    
+    body{
+        background-color: violet;
+    }
+
+    .box1{
+        border: 5px solid darkmagenta;
+        margin: auto;
+        text-align: center;
+        color: darkmagenta;
+    }
+    .box2{
+        height: 300px;
+        width: auto;
+        background-color: darkmagenta;
+        margin: auto;
+    } 
+    
+}
+@media all and (min-width:768px) and (max-width:1024px)
+{
+    h1{
+        color: darkgray;
+        font-size: 60px;
+        text-align: center;
+        font-family: Freestyle Script;
+    }
+    
+    body{
+        background-color: black;
+    }
+
+    .box1{
+        border: 5px solid darkgray;
+        margin: auto;
+        text-align: center;
+        color: darkgrey;
+    }
+    .box2{
+        height: 300px;
+        width: auto;
+        background-color: darkgray;
+        margin: auto;
+    } 
+    
+}
+@media all and (min-width:1024px) and (max-width:1440px)
+{
+    h1{
+        color: bisque;
+        font-size: 70px;
+        text-align: center;
+        font-family: Forte;
+    }
+    
+    body{
+        background-color: black;
+    }
+
+    .box1{
+        border: 5px solid bisque;
+        margin: auto;
+        text-align: center;
+        color: bisque;
+    }
+    .box2{
+        height: 300px;
+        width: auto;
+        background-color: bisque;
+        margin: auto;
+    } 
+    
+}

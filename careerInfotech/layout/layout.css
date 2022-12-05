@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+    font-family: forte;
+    text-decoration: overline;
+    text-align: center;
+}
+
+main{
+    height: 1500px;
+    width: 2000px;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+header{
+    height: 100px;
+    width: 2000px;
+    background-color: darkgoldenrod;
+}
+
+menu{
+    height: 50px;
+    width: 2000px;
+    background-color:rgb(97, 45, 7);
+}
+
+aside{
+    height: 200px;
+    width: 2000px;
+    background-color:rgb(189, 107, 6);
+}
+
+section{
+    height: 400px;
+    width: 2000px;
+    background-color:rgb(100, 55, 4);
+    
+    display: flex;
+}
+imgsec{
+    height: 400px;
+    width: 1000px;
+    background-color:rgb(71, 3, 85);    
+}
+infosec{ 
+    height: 400px;
+    width: 1000px;
+    background-color:rgb(85, 3, 3); 
+}
+
+article{
+    height: 500px;
+    width: 2000px;
+    background-color:rgb(3, 85, 28);
+
+    display: flex;
+}
+
+
+.box1{
+    height: 500px;
+    width: 500px;
+    background-color:rgb(3, 59, 85);
+}
+.b1{
+    height: 300px;
+    width: 500px;
+    background-color:rgb(11, 122, 7);
+}
+.b2{
+    height: 200px;
+    width: 500px;
+    background-color:rgb(36, 182, 31);
+}
+
+
+.box2{
+    height: 500px;
+    width: 500px;
+    background-color:rgb(74, 164, 206);
+}
+.b3{
+    height: 300px;
+    width: 500px;
+    background-color:rgb(5, 27, 100);
+}
+.b4{
+    height: 200px;
+    width: 500px;
+    background-color:rgb(40, 38, 180);
+}
+
+.box3{
+    height: 500px;
+    width: 500px;
+    background-color:rgb(3, 59, 85);
+}
+.b5{
+    height: 300px;
+    width: 500px;
+    background-color:rgb(11, 122, 7);
+}
+.b6{
+    height: 200px;
+    width: 500px;
+    background-color:rgb(36, 182, 31);
+}
+
+
+.box4{
+    height: 500px;
+    width: 500px;
+    background-color:rgb(47, 147, 194);
+} 
+.b7{
+    height: 300px;
+    width: 500px;
+    background-color:rgb(5, 27, 100);
+}
+.b8{
+    height: 200px;
+    width: 500px;
+    background-color:rgb(40, 38, 180);
+}
+
+
+footer{
+    height: 250px;
+    width: 2000px;
+    background-color:rgb(92, 86, 3);
+}
+

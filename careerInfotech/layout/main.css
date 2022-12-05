@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    color: bisque;
+    font-size: 60px;
+    font-family: Magneto;
+
+    text-align: center;
+}
+
+p {
+    color: bisque;
+    text-align: center;
+}
+
+main {
+    height: auto;
+    width: 100%;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: darkred;
+}
+
+menu {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(97, 13, 7);
+
+    font-size: 30px;
+    font-family: forte;
+    text-align: center;
+    line-height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: bisque;
+}
+
+.home {
+    height: 50px;
+    width: 250px;
+    background-color: rgb(177, 2, 2);
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 5px;
+}
+
+.home:hover {
+    text-decoration: underline;
+}
+
+.courses {
+    height: 50px;
+    width: 250px;
+    background-color: rgb(177, 2, 2);
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 5px;
+}
+
+.courses:hover {
+    text-decoration: underline;
+}
+
+.our-staff {
+    height: 50px;
+    width: 250px;
+    background-color: rgb(177, 2, 2);
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 5px;
+}
+
+.our-staff:hover {
+    text-decoration: underline;
+}
+
+.about-us {
+    height: 50px;
+    width: 250px;
+    background-color: rgb(177, 2, 2);
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 5px;
+}
+
+.about-us:hover {
+    text-decoration: underline;
+}
+
+.contact-us {
+    height: 50px;
+    width: 250px;
+    background-color: rgb(177, 2, 2);
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contact-us:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(189, 107, 6);
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+}
+
+.cont {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(100, 55, 4);
+    display: flex;
+    flex-direction: row;
+}
+
+.imgsec {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(71, 3, 85);
+}
+
+.cont .imgsec img {
+    height: 100%;
+    width: 100%;
+}
+
+.infosec {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(85, 3, 3);
+
+}
+.info{
+    color: bisque;
+    font-size: 20px;
+    font-family: Franklin Gothic;
+    padding-left: 50px;
+    padding-top: 30px;
+    overflow: auto;
+}
+article {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(3, 85, 28);
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+.box1 {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(3, 59, 85);
+
+    color: bisque;
+    font-size: 20px;
+    font-family: Franklin Gothic;
+    text-align: center;
+
+}
+
+.b1 {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(11, 122, 7);
+}
+.b1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.b2 {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(85, 3, 3);
+}
+
+
+.box2 {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(74, 164, 206);
+
+    color: bisque;
+    font-size: 20px;
+    font-family: Franklin Gothic;
+    text-align: center;
+
+}
+
+.b3 {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(5, 27, 100);
+}
+.b3 img{
+    height: 100%;
+    width: 100%;
+}
+
+.b4 {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(156, 43, 43);
+}
+
+.box3 {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(3, 59, 85);
+
+    color: bisque;
+    font-size: 20px;
+    font-family: Franklin Gothic;
+    text-align: center;
+
+}
+
+.b5 {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(11, 122, 7);
+}
+.b5 img{
+    height: 100%;
+    width: 100%;
+}
+
+.b6 {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(85, 3, 3);
+}
+
+
+.box4 {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(47, 147, 194);
+
+    color: bisque;
+    font-size: 20px;
+    font-family: Franklin Gothic;
+    text-align: center;
+
+}
+
+.b7 {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(5, 27, 100);
+}
+.b7 img{
+    height: 100%;
+    width: 100%;
+}
+.b8 {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(156, 43, 43);
+}
+
+
+footer {
+    height: 250px;
+    width: 100%;
+    background-color: rgb(59, 1, 1);
+}
+
+
+@media all and (min-width:320px) and (max-width:600px) {
+    header {
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    menu {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .banner {
+        height: auto;
+        width: 100%;
+    }
+
+    .banner img {
+        height: auto;
+        width: 100%;
+    }
+
+    .cont {
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .cont .imgsec img {
+        height: auto;
+        width: 100%;
+    }
+
+    .infosec{
+        height: auto;
+        width: 100%;
+    }
+
+    article{
+        height: auto;
+        width: 100%;
+        background-color: rgb(3, 85, 28);
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        height: auto;
+        width: 100%;
+        background-color: rgb(59, 1, 1);
+    }
+
+
+}
